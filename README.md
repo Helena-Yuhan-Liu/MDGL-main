@@ -4,7 +4,7 @@ Code adapted by Yuhan Helena Liu, PhD Candidate, University of Washington
 
 Code adapted for Liu et al., PNAS, 2021 [1]
 
-Code modified from https://github.com/IGITUGraz/LSNN-official [2]
+Code built on top of https://github.com/IGITUGraz/LSNN-official [2]
 
 Please refer to LICENSE for copyright details
 
@@ -21,7 +21,7 @@ The code is built on top of the LSNN code published for [2] with these important
 
 ## Usage
 
-In the folder `bin/` there is the code for the evidence accumulation task (Figure 3C in [1]). The saved data for Figure 3C is already included but you can generate these data again with 'sh run_AccuCues.sh default' (may take a few days) and visualize the saved data using 'plot_results.py'. In the folder `lsnn/` you may find the source code of the lsnn package retained from [2]. 
+In the folder `bin/` there is the code for the evidence accumulation task (Figure 3C in [1]). The saved data for Figure 3C is already included but you can generate these data again by running 'sh run_AccuCues.sh default' (may take a few days) and visualize the saved data using 'plot_results.py'. In the folder `lsnn/` you may find the source code of the lsnn package retained from [2]. 
 
 ## Installation
 
