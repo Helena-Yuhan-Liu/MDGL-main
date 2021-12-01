@@ -247,8 +247,7 @@ if FLAGS.NP:
         dEdWr = tf.reduce_sum(tf.multiply(partial_Ez_, e_trace), axis=(0,1)) 
         dEdWi = tf.reduce_sum(tf.multiply(partial_Ez_, e_trace_i), axis=(0,1)) 
         
-    else:        
-        
+    else:                
         if EI_approx:                       
             # weight average 
             # A bit confusing, W stored as (p,j)
@@ -292,7 +291,7 @@ if FLAGS.NP:
             gamIq_i = e_trace_i[:,:-1,:n_inhibitory] * (Wie*sum_aE + Wii*sum_aI)
             gam_i = tf.reduce_sum(tf.concat([gamIq_i, gamEq_i], axis=2), axis=(0,1))
         
-        elif Trunc:  # Truc
+        elif Trunc:  
             Wjp = tf.transpose(cell.W_rec[:,:,0]) #(p,j) -> (j,p)
             a_tj = tf.multiply(partial_Ez[:,1:], psi[:,1:])           
             sum_a = tf.expand_dims(einsum_bij_jk_to_bik(a_tj, Wjp), axis=-1) #(b,t,p,1)
