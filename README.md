@@ -23,7 +23,7 @@ The code is built on top of the LSNN code published for [2] with these important
 
 In the folder `bin/` there is the code for the evidence accumulation task (Figure 3C in [1]). The saved data for Figure 3C is already included and you can load them using 'plot_results.py'. You can generate data from five more runs (of BPTT, e-prop and MDGL) by running 'sh run_AccuCues.sh default' (may take a few days) and visualize the saved data using 'plot_results.py'. In the folder `lsnn/` you may find the source code of the lsnn package retained from [2].
 
-Instead of modifying the gradient using @tf.custom_gradient and exploiting Tensorflow's automatic differentiation, this code explicitly computes all quantities involved in MDGL (i.e. eligibility trace and modulatory learning signals), in order to have them available for analysis. A consequence of this is that this code is memory intensive (e.g. eligibility trace tensor for recurrent weights has a shape of B x T x N x N, where B=64, T=2000, N=100 for Fig 3C [1]) and requires 60G. 
+Instead of modifying the gradient using @tf.custom_gradient and exploiting Tensorflow's automatic differentiation, this code explicitly computes all quantities involved in MDGL (i.e. eligibility trace and modulatory learning signals), in order to have them available for analysis. A consequence of this is that this code is not memory optimized and requires 60G (it explicitly stores large tensors, e.g. eligibility trace tensor for recurrent weights has a shape of B x T x N x N, where B=64, T=2000, N=100 for Fig 3C [1]). 
 
 ## Installation
 
