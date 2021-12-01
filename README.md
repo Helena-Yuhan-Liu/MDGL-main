@@ -33,8 +33,7 @@ Warning, the GPU compatible version of tensorflow is not part of the requirement
 To use GPUs one should also install it:
  ``pip3 install --user tensorflow-gpu``.
 
-## 
-References:
+## References:
 
 [1] Yuhan Helena Liu, Stephen Smith, Stefan Mihalas, Eric Shea-Brown, and Uygar Sümbül. Cell-type-specific neuromodulation guides synaptic credit assignment in a spiking neural network. PNAS (accepted), 2021.
 
