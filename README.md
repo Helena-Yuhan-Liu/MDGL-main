@@ -1,8 +1,11 @@
 # MDGL-main
 
 Code adapted by Yuhan Helena Liu, PhD Candidate, University of Washington
+
 Code adapted for Liu et al., PNAS, 2021 [1]
+
 Code modified from https://github.com/IGITUGraz/LSNN-official [2]
+
 Please refer to LICENSE for copyright details
 
 ## Multidigraph learning (MDGL)
@@ -10,6 +13,7 @@ Please refer to LICENSE for copyright details
 This repository provides a tensorflow 1.12 library and a tutorial to train a recurrent spiking neural networks (obeying Dale's law and connection sparsity constraints) using multidigraph learning rule (MDGL) detailed in our paper [1]. MDGL is the SOTA biologically plausible learning rule inspired by the widespread intracortical neuromodulation illuminated in the recent genetic data from the Allen Institute [3]. MDGL builds on top of the great work of e-prop by Bellec et al. [4]. 
 
 The code is built on top of the LSNN code published for [2] with these important additions:
+
 1. Computing the local modulatory signals that encode the contribution of each neuron activity z to the loss 
 2. Computing and accumulating eligibility trace
 3. Combine the previous steps for weight updates 
