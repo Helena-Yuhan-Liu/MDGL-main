@@ -10,7 +10,7 @@ Please refer to LICENSE for copyright details
 
 ## Multidigraph learning (MDGL)
 
-This repository provides a tensorflow 1.12 library and a tutorial to train a recurrent spiking neural networks (obeying Dale's law and connection sparsity constraints) using multidigraph learning rule (MDGL) detailed in our paper [1]. MDGL is the SOTA biologically plausible learning rule inspired by the widespread intracortical neuromodulation illuminated in the recent genetic data from the Allen Institute [3]. MDGL builds on top of the great work of e-prop by Bellec et al. [4]. 
+This repository provides a tensorflow 1.12 library and a tutorial to train a recurrent spiking neural networks (obeying Dale's law and connection sparsity constraints) using multidigraph learning rule (MDGL) detailed in our paper [1]. MDGL is the SOTA biologically plausible learning rule inspired by the widespread intracortical neuromodulation illuminated in the recent genetic data from the Allen Institute [3]. MDGL builds on top of the great work of RFLO by Murray [4] and e-prop by Bellec et al. [5]. 
 
 The code is built on top of the LSNN code published for [2] with these important additions:
 
@@ -47,4 +47,7 @@ To use GPUs one should also install it:
 
 [3] Stephen J. Smith, Uygar Sümbül, Lucas T. Graybuck, Forrest Collman, Sharmishtaa Seshamani, Rohan Gala, Olga Gliko, Leila Elabbady, Jeremy A. Miller, Trygve E. Bakken, Jean Rossier, Zizhen Yao, Ed Lein, Hongkui Zeng, Bosiljka Tasic, and Michael Hawrylycz. Single-cell transcriptomic evidence for dense intracortical neuropeptide networks. eLife, 8, nov 2019.
 
-[4] Guillaume Bellec, Franz Scherr, Anand Subramoney, Elias Hajek, Darjan Salaj, Robert Legenstein, and Wolfgang Maass. A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1):1–15, dec 2020.
+[4] J. M. Murray, Local online learning in recurrent networks with random feedback.
+eLife 8, e43299 (2019).
+
+[5] Guillaume Bellec, Franz Scherr, Anand Subramoney, Elias Hajek, Darjan Salaj, Robert Legenstein, and Wolfgang Maass. A solution to the learning dilemma for recurrent networks of spiking neurons. Nature Communications, 11(1):1–15, dec 2020.
