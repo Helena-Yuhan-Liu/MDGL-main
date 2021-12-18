@@ -2,7 +2,8 @@
 
 Code adapted by Yuhan Helena Liu, PhD Candidate, University of Washington
 
-Code adapted for Liu et al., PNAS, 2021 [1]; paper link: https://doi.org/10.1073/pnas.2111821118 
+Code adapted for Liu et al., PNAS, 2021 [1] 
+Paper link: https://doi.org/10.1073/pnas.2111821118 
 
 Code built on top of https://github.com/IGITUGraz/LSNN-official [2]
 
