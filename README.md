@@ -2,7 +2,7 @@
 
 Code adapted by Yuhan Helena Liu, PhD Candidate, University of Washington
 
-Code adapted for Liu et al., PNAS, 2021 [1]
+Code adapted for Liu et al., PNAS, 2021 [1]; paper link: https://doi.org/10.1073/pnas.2111821118 
 
 Code built on top of https://github.com/IGITUGraz/LSNN-official [2]
 
@@ -41,7 +41,7 @@ To use GPUs one should also install it:
 
 ## References:
 
-[1] Yuhan Helena Liu, Stephen Smith, Stefan Mihalas, Eric Shea-Brown, and Uygar Sümbül. Cell-type-specific neuromodulation guides synaptic credit assignment in a spiking neural network. PNAS (accepted), 2021.
+[1] Yuhan Helena Liu, Stephen Smith, Stefan Mihalas, Eric Shea-Brown, and Uygar Sümbül. Cell-type-specific neuromodulation guides synaptic credit assignment in a spiking neural network. Proceedings of the National Academy of Sciences, 118 (51) e2111821118, 2021.
 
 [2] Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert Legenstein, and Wolfgang Maass. “Long short-term memory and learning-to-learn in networks of spiking neurons”. In: 32nd Conference on Neural Information Processing Systems. 2018, pp. 787–797.
 
